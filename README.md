@@ -50,3 +50,13 @@
         return( x.Item1, x.Item2 );
     }
 ```
+
+### 自動プロパティ初期化子
+```cs
+    public class Person
+    {
+        public string FirstName { get; set; } = string.Empty;
+        public string? LastName { get; set; }
+
+    }
+```
