@@ -14,7 +14,7 @@
     const string D = "DBG";
 ```
 
-### タプル
+### [タプル](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/builtin-types/value-tuples)
 ```cs
     private void action_Click(object sender, EventArgs e)
     {
