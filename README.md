@@ -53,7 +53,7 @@
 ### [cs-con-tuple](https://github.com/winofsql/cs-con-tuple)
 
 
-### 自動プロパティ初期化子( String.Empty は空の文字列 "" )
+### 自動プロパティ初期化子( [String.Empty](https://docs.microsoft.com/ja-jp/dotnet/api/system.string.empty?view=net-6.0) は空の文字列 "" )
 ```cs
     public class Person
     {
