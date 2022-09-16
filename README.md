@@ -24,7 +24,7 @@
 
         Debug.WriteLine($"{D}:{tuple.a} , {tuple.b}");
 
-        Person person = new Person();
+        var person = new Person();
 
         if ( person.FirstName != null ) {
             Debug.WriteLine($"{D}:NULL ではない");
