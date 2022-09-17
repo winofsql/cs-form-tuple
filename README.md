@@ -1,7 +1,5 @@
 # cs-tuple
 
-## namespace form_02
-
 ### 定数の補完文字列
 ```cs
     const string Language = "C#";
