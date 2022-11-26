@@ -1,4 +1,4 @@
-namespace form_02;
+namespace cs-form-tuple;
 
 static class Program
 {
