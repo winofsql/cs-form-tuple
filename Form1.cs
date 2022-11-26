@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace cs-form-tuple;
+namespace cs_form_tuple;
 
 public partial class Form1 : Form
 {
