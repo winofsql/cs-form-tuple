@@ -1,4 +1,4 @@
-﻿namespace cs-form-tuple;
+namespace cs_form_tuple;
 
 partial class Form1
 {
