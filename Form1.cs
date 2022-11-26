@@ -41,13 +41,13 @@ public partial class Form1 : Form
     private (double a, int b) TupleAction()
     {
         var t = (Sum: 4.5, Count: 3);
-        Debug.WriteLine($"{D}:Sum of {t.Count} elements is {t.Sum}.");
+        Debug.WriteLine($"{D}1:Sum of {t.Count} elements is {t.Sum}.");
 
         (double Sum, int Count) d = (4.5, 3);
-        Debug.WriteLine($"{D}:Sum of {d.Count} elements is {d.Sum}.");
+        Debug.WriteLine($"{D}2:Sum of {d.Count} elements is {d.Sum}.");
 
         var x = (4.5, 3);
-        Debug.WriteLine($"{D}:Sum of {x.Item2} elements is {x.Item1}.");
+        Debug.WriteLine($"{D}3:Sum of {x.Item2} elements is {x.Item1}.");
 
         return( x.Item1, x.Item2 );
     }
